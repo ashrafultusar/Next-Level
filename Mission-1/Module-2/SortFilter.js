@@ -24,4 +24,4 @@ const range = (start, stop, step) => {
     (_, i) => start + i * step
   );
 };
-console.log(range(1,10,4));
+// console.log(range(1,10,4));
