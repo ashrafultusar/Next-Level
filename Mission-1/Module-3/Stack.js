@@ -1,3 +1,4 @@
+
 class Stack {
   constructor() {
     this.item = [];
@@ -31,6 +32,9 @@ class Stack {
 }
 
 const stack = new Stack();
+
+console.log(stack.peek());
+console.log(stack.isEmpty());
 
 stack.push(10);
 stack.push(20);
